@@ -1,0 +1,103 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+header{
+    height: 220px;
+    background-color: rgba(26, 80, 150, 0.603);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+}
+
+header h1 {
+    color: aliceblue;
+    position: static;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 3px 2px 4px #000000;
+}
+
+header img {
+    height: 200px;
+}
+
+#menu {
+    background-color: rgba(26, 80, 150, 0.603);
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a, footer{
+    color: aliceblue;
+    font-size: 1.5em;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#body {
+    font-family: Georgia;
+    color: black;
+    text-align: lest;
+}
+
+#body article {
+    height: 150px;
+}
+
+#body h2 {
+    position: static;
+    font-size: 2em;
+    margin: 0 0 0 0;
+}
+
+#body article img {
+    height: 150px;
+    width: 250px;
+    position: absolute;
+    text-align: right;
+}
+
+#body article h3 {
+    margin-left: 265px;
+}
+
+#body article p {
+    margin-left: 265px;
+}
+
+footer {
+    color: black;
+    font-style: normal;
+    margin: 0%;
+}
+
+#body p{
+    font-size: 1.3em;
+}
+
+#body table{
+    width: 800px;    
+}
+
+#body table tr:nth-child(2n) {
+    background: #cacaca; 
+} 
+#body table td:first-of-type {
+    background: rgb(14, 95, 161);
+    color: #fff; 
+}
+
+#transport {
+    margin-right: 200px;
+}
+
+#body form textarea{
+    height: 300px;
+    width: 60%;
+    border: 1px solid;
+    resize: none;
+}
